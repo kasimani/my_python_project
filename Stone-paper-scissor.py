@@ -27,6 +27,7 @@ def decission(userchoice,compterchoice):
     else:
         print("You Win\n")
 
+#compterchoice = suffle_list(computeroption)
 
 while True:
     computeroption = ['stone','paper','scissor']
