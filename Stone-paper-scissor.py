@@ -10,7 +10,7 @@ def player_userchoice():
 
     userchoice = ''
     while userchoice not in ['Stone','Paper','Scissor']:
-        userchoice = userinput = input("Enter either Stone or Paper or Scissor:\n")
+        userchoice = input("Enter either Stone or Paper or Scissor:\n")
 
     return userchoice
 
