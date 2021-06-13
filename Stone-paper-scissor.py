@@ -1,9 +1,9 @@
 import random
-from random import shuffle
+#from random import shuffle
 
-def suffle_list(computeroption):
-    shuffle(computeroption)
-    return computeroption[0]
+#def suffle_list(computeroption):
+#    shuffle(computeroption)
+#    return computeroption[0]
 
 
 def player_userchoice():
