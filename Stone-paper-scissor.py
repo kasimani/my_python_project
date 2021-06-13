@@ -33,7 +33,7 @@ while True:
     computeroption = ['stone','paper','scissor']
     compterchoice = random.choice(computeroption)
     userchoice = player_userchoice()
-    print(f"Human {compterchoice}")
+    #print(f"Human {compterchoice}")
     decission(userchoice,compterchoice)
     play_again = input("Want to play again? (Y/N)")
     if play_again.lower() != "y":

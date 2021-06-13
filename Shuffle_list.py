@@ -22,11 +22,11 @@ def check_guess(mylist,guess):
     else:
         print("Wrong Guess !!")
 
-
-mylist = ['','0','']
-
-mixed_list = suffle_list(mylist)
-
-guess = player_guess()
-
-check_guess(mixed_list,guess)
+while True:
+    mylist = ['','0','']
+    mixed_list = suffle_list(mylist)
+    guess = player_guess()
+    check_guess(mixed_list,guess)
+    play_again = input("Want to Play again? (Y/N): ")
+    if play_again.lower() != "y":
+        break
